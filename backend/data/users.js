@@ -11,13 +11,11 @@ const users = [
     name: 'Ram User',
     email: 'ram@example.com',
     password: bcrypt.hashSync('123456', 10),
-    isAdmin: true,
   },
   {
     name: 'Sam User',
     email: 'sam@example.com',
     password: bcrypt.hashSync('123456', 10),
-    isAdmin: true,
   },
 ]
-module.exports = user
+module.exports = users
